@@ -3,7 +3,9 @@ html {
   font-size: 62.5%;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -136,6 +138,7 @@ section {
 /*-------- Donate-today section styles start-------- */
 .donation-amount {
   gap: 2.2rem;
+  margin: 4rem 0;
 }
 
 .donation-amount p {
@@ -266,14 +269,17 @@ section {
 /*----------------- Footer section styles start------------*/
 
 footer {
-  padding: 3rem 0 0.5rem 0;
+  padding: 3rem 0 0 0;
   background-color: #0b0d17;
   color: #d9dbe1;
-  font-size: 1.4rem;
+  /* font-size: 2.4rem; */
 }
 footer h3 {
   color: #ff5959;
   font-size: 3.6rem;
   font-family: "lobster";
+}
+#copyright {
+  font-size: 1.5rem;
 }
 /*============= Footer section styles end================*/
