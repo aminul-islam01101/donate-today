@@ -130,7 +130,6 @@ section {
   color: #fff;
   background-image: url(./images/donation13.jpg),
     linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
- 
 }
 /*------- banner section styles end------------------*/
 
@@ -205,7 +204,6 @@ section {
   flex-direction: column;
   padding: 5rem;
   text-align: left;
-  
 }
 .program-heading {
   margin-bottom: 3rem;
@@ -268,14 +266,15 @@ section {
 /*----------------- Footer section styles start------------*/
 
 footer {
-  padding: 3rem 0;
+  padding: 3rem 0 1rem 0;
   background-color: #0b0d17;
   color: #d9dbe1;
   font-size: 1.4rem;
 }
 footer h3 {
   color: #ff5959;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 3.6rem;
+  font-family: 'lobster';
 }
 /*============= Footer section styles end================*/
